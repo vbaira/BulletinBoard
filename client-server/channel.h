@@ -1,0 +1,10 @@
+
+struct Channel;
+void Add_channel(struct Channel** chnl,int id,char* name);
+struct Channel* Search_channel(int id,struct Channel* chnl);
+void Push(struct Channel* chnl,char* data,char type);
+char Pop(struct Channel *chnl,char * data);
+void Destroy_channels(struct Channel* chnl);
+struct Channel* GetNext(struct Channel* chnl);
+char* GetName(struct Channel* chnl);
+int GetId(struct Channel* chnl);

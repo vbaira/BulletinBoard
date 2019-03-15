@@ -1,0 +1,4 @@
+list
+send 1 README
+send 2 README
+exit
